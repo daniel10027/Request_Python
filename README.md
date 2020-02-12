@@ -3,7 +3,7 @@
 # get request 
 ```
 import requests 
-URL = "http://192.168.50.93:8001/Restaurant/" 
+URL = "votre url" 
 r = requests.get(url = URL)  
 data = r.json()
 for x in data :
